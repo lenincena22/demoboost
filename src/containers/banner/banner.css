@@ -1,0 +1,159 @@
+.banner-content {
+  width: 1216px;
+  height: 324px;
+  position: absolute;
+  top: 1700px;
+  left: 112px;
+  border-radius: 12px;
+  border: 1px solid #ffffff3d;
+  background: #5951ff;
+}
+
+.banner-content_frame-frame {
+  width: 1104px;
+  height: 228px;
+}
+
+.banner-content_frame-text {
+  width: 1104px;
+  height: 228px;
+  position: absolute;
+  top: 48px;
+  left: 56px;
+}
+
+.banner-content_frame-test--heading {
+  width: 639px;
+  height: 116px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.banner-content_frame-test--description {
+  width: 639px;
+  height: 96px;
+  margin-top: 30px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.004em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.banner-content_frame-button {
+  width: 325px;
+  height: 48px;
+  position: relative;
+  top: 140px;
+  left: 900px;
+}
+
+.banner-content_frame-button button {
+  width: 151px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.004em;
+  text-align: center;
+  color: rgba(25, 19, 36, 1);
+  background: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-content {
+    width: 768px;
+    height: 450px;
+    postion: relative;
+    top: 1800px;
+    left: 0;
+    border-radius: 0px;
+  }
+
+  .banner-content_frame-frame {
+    width: 768px;
+    height: 228px;
+  }
+
+  .banner-content_frame-text {
+    max-width: 768px;
+    height: 228px;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+  }
+  .banner-content_frame-button {
+    position: relative;
+    top: 350px;
+    left: 55px;
+  }
+
+  .banner-content_frame-button button {
+    postion: relative;
+    width: 50%;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .banner-content {
+    width: 360px;
+    height: 550px;
+    postion: relative;
+    top: 3100px;
+    left: 0;
+    border-radius: 0px;
+  }
+
+  .banner-content_frame-text {
+    postion: absolute;
+    top: 60px;
+    left: 20px;
+    width: 328px;
+    height: auto;
+    height: 310px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-content_frame-test--heading {
+    width: 328px;
+    height: 126px;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .banner-content_frame-test--description {
+    width: 328px;
+    height: 168px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .banner-content_frame-frame {
+    width: 360px;
+  }
+
+  .banner-content_frame-button {
+    position: relative;
+    top: 450px;
+    left: 20px;
+  }
+
+  .banner-content_frame-button button {
+    width: 328px;
+    height: 40px;
+  }
+}
